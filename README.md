@@ -93,7 +93,7 @@ Here, we will install all Rokit tools from your project's `rokit.toml` file. Thi
 	...
 
 	// Install Rokit tools
-	"postCreateCommand": "rokit install --force",
+	"postCreateCommand": "rokit install --no-trust-check",
 
 	...
 }
@@ -106,7 +106,7 @@ If your project uses Wally, you use the `&&` operator to specify multiple comman
 	...
 
 	// Install Rokit tools and Wally packages
-	"postCreateCommand": "rokit install --force && wally install",
+	"postCreateCommand": "rokit install --no-trust-check && wally install",
 
 	...
 }
