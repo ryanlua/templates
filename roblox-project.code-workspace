@@ -1,0 +1,22 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "luau-lsp.sourcemap.rojoProjectFile": "default.project.json",
+        "luau-lsp.require.mode": "relativeToFile",
+        "luau-lsp.require.directoryAliases": {
+            "@shared": "src/shared"
+        },
+        "stylua.targetReleaseVersion": "latest",
+        "[lua]": {
+            "editor.defaultFormatter": "JohnnyMorganz.stylua",
+            "editor.formatOnSave": true
+        },
+        "files.associations": {
+            "*.lua": "lua"
+        }
+    }
+}

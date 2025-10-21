@@ -1,0 +1,11 @@
+# Packages from Wally
+/Packages
+
+# Build outputs
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+
+# Rokit tools
+/.rokit
