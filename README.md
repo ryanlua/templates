@@ -40,7 +40,7 @@ You also need to remove the `https://` at the beginning and the `/` end of the f
 
 This template is used in the following repositories:
 
-* [rojo-showcase-template](https://github.com/ryanlua/rojo-showcase-template)
+* [Roblox Showcase Rojo Template](https://github.com/ryanlua/rojo-showcase-template)
 * [Satchel](https://github.com/ryanlua/satchel)
 
 Go test out this template in the wild and see how it works.
