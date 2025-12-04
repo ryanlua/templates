@@ -1,6 +1,6 @@
 # Roblox Dev Container Template
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/RyanLua/templates?quickstart=1)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ryanlua/templates?quickstart=1)
 
 Dev Container Template for Roblox. Allows Roblox developers to develop in the cloud easily and with zero effort. Supporting your favorite tools with automatic installation so all you need to focus on is scripting.
 
@@ -40,8 +40,8 @@ You also need to remove the `https://` at the beginning and the `/` end of the f
 
 This template is used in the following repositories:
 
-* [rojo-showcase-template](https://github.com/RyanLua/rojo-showcase-template)
-* [Satchel](https://github.com/RyanLua/Satchel) (experimental support)
+* [rojo-showcase-template](https://github.com/ryanlua/rojo-showcase-template)
+* [Satchel](https://github.com/ryanlua/Satchel) (experimental support)
 
 Go test out this template in the wild and see how it works.
 
@@ -53,23 +53,23 @@ The easier way to use this template is to use [GitHub Codespaces](https://github
 
 1. Click the **Code** button, then click the **Codespaces** tab, and then click **Create codespace**.
 
-    <img alt="Create codespace on main" src="https://github.com/RyanLua/templates/assets/80087248/df4e2f4b-0ad3-4ae9-86a9-e43b4841df80" width=50%>
+    <img alt="Create codespace on main" src="https://github.com/ryanlua/templates/assets/80087248/df4e2f4b-0ad3-4ae9-86a9-e43b4841df80" width=50%>
 
 1. Wait for the codespace to be created and open the Command Palette with <kbd>Shift</kbd>+<kbd>Command</kbd>+<kbd>P</kbd> (Mac) / <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (Windows/Linux), then start typing "Add Dev Container Configuration Files". Click **Add Dev Container Configuration Files...**.
 
-    <img alt="Command Palette" src="https://github.com/RyanLua/templates/assets/80087248/3ee5982f-0f9a-4f36-98d9-f4a0d7fa0d4e" width=75%>
+    <img alt="Command Palette" src="https://github.com/ryanlua/templates/assets/80087248/3ee5982f-0f9a-4f36-98d9-f4a0d7fa0d4e" width=75%>
 
 1. Select **Create a new configuration...**. Type `ghcr.io/ryanlua/templates/roblox` and click **Use 'ghcr.io/ryanlua/templates/roblox' as a template...**.
 
-    <img alt="Add Dev Container Configuration Files" src="https://github.com/RyanLua/templates/assets/80087248/8aa955a8-4a9f-4a88-a476-6035cd01e7dd" width=75%>
+    <img alt="Add Dev Container Configuration Files" src="https://github.com/ryanlua/templates/assets/80087248/8aa955a8-4a9f-4a88-a476-6035cd01e7dd" width=75%>
 
 1. A new file `devcontainer.json` will be created. This is your dev container configuration with the Roblox template applied. In the Activity Bar, click the **Source Control** view and stage the file by clicking + next to the file.
 
-    <img alt="Source Control" src="https://github.com/RyanLua/templates/assets/80087248/1c3fa187-9e49-44a8-924c-1cda4df27010" width=50%>
+    <img alt="Source Control" src="https://github.com/ryanlua/templates/assets/80087248/1c3fa187-9e49-44a8-924c-1cda4df27010" width=50%>
 
 1. To commit your staged changes, type a commit message describing, then click **Commit**, then **Sync**.
 
-    <img alt="Commit" src="https://github.com/RyanLua/templates/assets/80087248/ff9a73ff-9b52-4a18-8328-7871e76c6a32" width=50%>
+    <img alt="Commit" src="https://github.com/ryanlua/templates/assets/80087248/ff9a73ff-9b52-4a18-8328-7871e76c6a32" width=50%>
 
 Now when someone opens your project in a [supporting tool](https://containers.dev/supporting) like GitHub Codespaces, it will use your dev container configuration to set up Rojo and [Rokit](https://github.com/rojo-rbx/rokit), [Aftman](https://github.com/LPGhatguy/aftman), or [Foreman](https://github.com/Roblox/foreman) (optionally). Tell your contributors you support codespaces and add a link to an "Open in GitHub Codespaces" badge by reading about "[Facilitating quick creation and resumption of codespaces](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/setting-up-your-repository/facilitating-quick-creation-and-resumption-of-codespaces)"
 
